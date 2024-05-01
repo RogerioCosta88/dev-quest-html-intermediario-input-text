@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: INPUT Text</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Input Text</h1>
+
+    <p>O <strong>input</strong> é usado para inserir uma caixa para que o usuário digite alguma informação e
+        posteriormente, envie essa informação para o <i>backend</i> e/ou <i>frontend</i>.</p>
+
+    <p>Existe alguns tipos de <strong>input</strong>, aqui vamos ver o <strong>input text</strong>, que é usado para
+        inserir texto.</p>
+
+    <p>Sua anatômia é bem simples: Digitando <i>input:text</i> o <i>emmet</i> já completa a <strong>TAG</strong> correta
+        e insere também os principais <i>atributos</i>.</p>
+
+    <label for="nome"><strong>Input Text</strong></label>
+    <input type="text" name="name" id="nome" value="Fulano da Silva e Silva" placeholder="Digite seu nome">
+    
+    <br><br>
+
+    <label for="email"><strong>Input Text</strong></label>
+    <input type="text" name="email" id="email" value="fulano@silva.com" placeholder="Digite seu e-mail">
+
+    <h2>ATRIBUTO: <strong>type</strong></h2>
+    <p>Indica o <i>tipo</i> do <strong>input</strong>. Seu valor padrão é o próprio <strong>text</strong>, ou seja, se o
+        <i>atributo</i> não for definido, automaticamente o <strong>HTML</strong> reconhece o <strong>input</strong>
+        como <strong>text</strong>.
+    </p>
+
+    <h2>ATRIBUTO: <strong>name</strong></h2>
+    <p>É usado para que o <i>backend</i> ou <i>frontend</i>, busquem essas iformações digitadas pelo usuário.</p>
+
+    <h2>ATRIBUTO: <strong>id</strong></h2>
+    <p>É um <i>identificador</i>, usado para vincular o <strong>input</strong> com o <strong>label</strong></p>
+
+    <h2>ATRIBUTO: <strong>value</strong></h2>
+    <p>É uma informação pré definida no <strong>HTML</strong>, usada para ajudar o usuário a identificar o que deve ser
+        digitado no <strong>input</strong>. Se o usuário não digitar nada no <strong>input</strong>, o valor pré
+        definido no <strong>HTML</strong>, será enviado para o <i>backend</i> e/ou <i>frontend</i>.</p>
+
+    <p>Obs.: o <i>valor</i> do <strong>value</strong> sobrescreve o <i>valor</i> do <strong>placeholder</strong> e as
+        informações inseridas pelo usuário, sobrescreverão, os <i>valores</i> do <strong>value</strong> e do
+        <strong>placeholder</strong>.</p>
+
+    <h2>Label</h2>
+    <p>Além de ser usado para víncular com o <strong>input</strong>, o <strong>label</strong> é usado para colocar uma
+        descrição na frente do <strong>input</strong>.</p>
+</body>
+
+</html>
